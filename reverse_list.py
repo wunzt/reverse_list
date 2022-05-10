@@ -6,8 +6,8 @@
 def reverse_list(val):
     """Reverses the order of a list."""
     i = 0
-    while i < len(list)/2:
+    while i < len(val)/2:
         temp = val[i]
-        val[i] = val[len(list)-i-1]
-        val[len(list) - i - 1] = temp
+        val[i] = val[len(val)-i-1]
+        val[len(val) - i - 1] = temp
         i += 1
